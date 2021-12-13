@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="UmO-vl-5Vc">
+                                <rect key="frame" x="0.0" y="144" width="390" height="200"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" image="tabbar" translatesAutoresizingMaskIntoConstraints="NO" id="TOM-N4-b6T">
+                                <rect key="frame" x="0.0" y="759.66666666666663" width="390" height="84.333333333333371"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="TOM-N4-b6T" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1rN-hR-qF9"/>
+                            <constraint firstItem="TOM-N4-b6T" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.1" id="7e1-ne-U5a"/>
+                            <constraint firstAttribute="bottom" secondItem="TOM-N4-b6T" secondAttribute="bottom" id="8Kl-S8-8Cz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UmO-vl-5Vc" secondAttribute="trailing" id="D2v-Wv-QRS"/>
+                            <constraint firstItem="UmO-vl-5Vc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="R17-tf-rTS"/>
+                            <constraint firstItem="UmO-vl-5Vc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="TXm-Oh-Rj0"/>
+                            <constraint firstItem="UmO-vl-5Vc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="VJG-p0-ebu"/>
+                            <constraint firstAttribute="trailing" secondItem="TOM-N4-b6T" secondAttribute="trailing" id="cQ1-1M-cWw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="200" height="200"/>
+        <image name="tabbar" width="375" height="49.5"/>
+    </resources>
+</document>
